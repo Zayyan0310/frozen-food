@@ -26,9 +26,20 @@
             <div>
                 <h4 class="font-bold mb-6 text-on-surface dark:text-surface-bright">Sertifikasi</h4>
                 <div class="flex gap-4">
-                    <div class="w-12 h-12 rounded bg-surface-container-highest flex items-center justify-center font-bold text-xs text-center">HALAL</div>
-                    <div class="w-12 h-12 rounded bg-surface-container-highest flex items-center justify-center font-bold text-xs text-center">BPOM</div>
-                    <div class="w-12 h-12 rounded bg-surface-container-highest flex items-center justify-center font-bold text-xs text-center">HACCP</div>
+                    <div class="w-14 h-14 rounded-xl bg-surface-container-highest flex flex-col items-center justify-center border border-outline-variant/20 hover:text-secondary hover:border-secondary/50 transition-colors duration-300 cursor-help" title="100% Halal Certified">
+                        <span class="material-symbols-outlined text-[22px] font-medium mb-0.5">verified_user</span>
+                        <span class="font-bold text-[9px] tracking-wider uppercase opacity-80">HALAL</span>
+                    </div>
+
+                    <div class="w-14 h-14 rounded-xl bg-surface-container-highest flex flex-col items-center justify-center border border-outline-variant/20 hover:text-secondary hover:border-secondary/50 transition-colors duration-300 cursor-help" title="Terdaftar Resmi BPOM RI">
+                        <span class="material-symbols-outlined text-[22px] font-medium mb-0.5">gavel</span>
+                        <span class="font-bold text-[9px] tracking-wider uppercase opacity-80">BPOM</span>
+                    </div>
+
+                    <div class="w-14 h-14 rounded-xl bg-surface-container-highest flex flex-col items-center justify-center border border-outline-variant/20 hover:text-secondary hover:border-secondary/50 transition-colors duration-300 cursor-help" title="Standar Higienitas HACCP">
+                        <span class="material-symbols-outlined text-[22px] font-medium mb-0.5">health_and_safety</span>
+                        <span class="font-bold text-[9px] tracking-wider uppercase opacity-80">HACCP</span>
+                    </div>
                 </div>
             </div>
         </div>
